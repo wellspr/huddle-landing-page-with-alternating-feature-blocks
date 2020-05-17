@@ -1,0 +1,57 @@
+.button{
+    text-decoration: none;
+    color: var(--color-dark-cyan);
+    padding: 8px 35px;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: var(--button-shadow);
+    text-align: center;
+    transition-duration: 0.2s;
+}
+.button:hover{
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
+.button.try-it{
+    font-size: 0.6rem;
+    font-weight: 700;
+    min-width: 100px;
+}
+
+.button.get-started, .button.cta{
+    display: block;
+    font-size: 0.8rem;
+    padding: 10px;
+    margin: 15px 0;
+    background-color: var(--color-pink);
+    color: #fff;
+    font-weight: 700;
+}
+.button.get-started{
+    width: 75%;
+    max-width: 250px;
+}
+.button.cta{
+    width: 65%;
+    max-width: 350px;
+}
+
+@media screen and (min-width: 768px){
+
+    .button.try-it{
+        font-size: 1rem;
+        min-width: 200px;
+    }
+
+    .button.get-started{
+        padding: 3%;
+    }
+
+    .button.cta{
+        font-size: 1.1rem;
+        padding: 3%;
+    }
+
+
+}

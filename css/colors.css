@@ -1,0 +1,46 @@
+:root{
+/* ## Colors */
+
+/* ### Primary */
+
+/* - Pink:  */
+    --color-pink: hsl(322, 100%, 66%);
+
+/* ### Neutral */
+
+/* - Very Pale Cyan:  */
+    --color-pale-cyan: hsl(193, 100%, 96%);
+/* - Very Dark Cyan: */
+    --color-dark-cyan: hsl(192, 100%, 9%);
+/* - Grayish Blue:  */
+    --color-blue: hsl(208, 11%, 55%);
+
+}
+
+
+.heading{
+    color: var(--color-dark-cyan);
+}
+.paragraph{
+    color: var(--color-dark-cyan);
+}
+
+.card-heading{
+    color: var(--color-dark-cyan);
+}
+.card-paragraph{
+    color: var(--color-blue);
+}
+
+.cta-heading{
+    color: var(--color-dark-cyan);
+}
+
+#footer{
+    background-color: var(--color-dark-cyan);
+    color: #fff;
+}
+
+.link-item a{
+    color: #fff;
+}

@@ -1,0 +1,58 @@
+/* Typography */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.heading{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: calc(1rem + 1.8vw);
+}
+.paragraph{
+    font-size: calc(0.8rem + 0.5vw);
+    line-height: 1.8;
+}
+
+.card-heading{
+    font-size: 1.2rem;
+}
+.card-paragraph{
+    font-size: 0.85rem;
+}
+
+.cta-heading{
+    font-size: 1rem;
+    text-align: center;
+    padding: 3%;
+}
+
+.text-box p{
+    font-size: 1rem;
+}
+
+.link-item a{
+    font-size: 1.1rem;
+}
+
+.copy{
+    font-size: 0.75rem;
+}
+
+
+@media screen and (min-width: 768px){
+
+    .card-heading{
+        font-size: 2rem;
+    }
+    .card-paragraph{
+        font-size: 1.2rem;
+    }
+
+    .cta-heading{
+        font-size: 2rem;
+    }
+
+
+}
